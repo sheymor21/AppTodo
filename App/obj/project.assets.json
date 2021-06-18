@@ -1115,11 +1115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sheymor/Escritorio/carpeta/AppTodo/AppTodo.csproj",
+      "projectUniqueName": "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/AppTodo.csproj",
       "projectName": "AppTodo",
-      "projectPath": "/home/sheymor/Escritorio/carpeta/AppTodo/AppTodo.csproj",
+      "projectPath": "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/AppTodo.csproj",
       "packagesPath": "/home/sheymor/.nuget/packages/",
-      "outputPath": "/home/sheymor/Escritorio/carpeta/AppTodo/obj/",
+      "outputPath": "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/sheymor/.nuget/NuGet/NuGet.Config"

@@ -13,91 +13,91 @@ namespace AppTodo.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 1 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 2 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 3 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 4 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 5 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 6 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 7 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 8 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 9 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using AppTodo;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 10 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using AppTodo.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 11 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Database;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 12 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "/home/sheymor/Escritorio/carpeta/AppTodo/_Imports.razor"
+#line 13 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/_Imports.razor"
 using Newtonsoft.Json;
 
 #line default
@@ -112,7 +112,7 @@ using Newtonsoft.Json;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 78 "/home/sheymor/Escritorio/carpeta/AppTodo/Pages/Prueba.razor"
+#line 78 "/home/sheymor/Escritorio/carpeta/repo/AppTodo/App/Pages/Prueba.razor"
        
     private List<Notas> listado = new List<Notas>();
     List<Users> listadoU = new List<Users>();

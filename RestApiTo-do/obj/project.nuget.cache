@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vpxLmwI6B8uKMoYXOIe2R/FBdjyRytAMFpKTdd9rirouFiAj/OakpM4TCBis+K4DTnl/056l6lpmjy6njnNlAg==",
+  "dgSpecHash": "sal4ShmL28lR47sivpt+grKFSGExtslUqMiygkrGX+inCui2oAc4Te/2++8jgGiGBt8uRNepyaztIbhezt8hKw==",
   "success": true,
-  "projectFilePath": "/home/sheymor/Escritorio/carpeta/RestApiTo-do/RestApiTo-do.csproj",
+  "projectFilePath": "/home/sheymor/Escritorio/carpeta/repo/AppTodo/RestApiTo-do/RestApiTo-do.csproj",
   "expectedPackageFiles": [
     "/home/sheymor/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/sheymor/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

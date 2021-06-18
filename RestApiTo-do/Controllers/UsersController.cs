@@ -3,6 +3,7 @@ using Database;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace RestApiTo_do.Controllers
 {
@@ -28,30 +29,52 @@ namespace RestApiTo_do.Controllers
         public IActionResult Get(int ID)
         {
             var list = db.users.FirstOrDefault((p) => p.usersId == ID);
-            return Ok(list);
+            if (list == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Ok(list);
+            }
         }
 
         [HttpPost]
         public IActionResult Post(Users us)
         {
-            db.Add(new Users
+            try
             {
-                name = us.name,
-                fecha = us.fecha,
-                email = us.email,
-                username = us.username
-            });
-            db.SaveChanges();
-            return Ok();
+                db.Add(new Users
+                {
+                    name = us.name,
+                    fecha = us.fecha,
+                    email = us.email,
+                    username = us.username
+                });
+                db.SaveChanges();
+                return Ok();
+            }
+            catch (Exception)
+            {
+                return NotFound();
+            }
         }
 
         [HttpDelete("ID")]
         public IActionResult Delete(int ID)
         {
             Users user = db.users.FirstOrDefault((p) => p.usersId == ID);
-            db.Remove(user);
-            db.SaveChanges();
-            return Ok();
+            if (user == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+
+                db.Remove(user);
+                db.SaveChanges();
+                return Ok();
+            }
         }
 
     }

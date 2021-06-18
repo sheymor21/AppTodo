@@ -11,16 +11,16 @@
     <div class="main">
         <div class="top-row px-4">
             <div class="user-image" style="float: left; position: relative; width: 50%; height: 135px;">
-                <img src="https://hook.finance/sites/default/files/user.png" style="width: 60%; height: 35%; border-radius: 50%; margin-top: 50%; margin-left: 10%;">
+                <img src="https://hook.finance/sites/default/files/user.png"
+                    style="width: 60%; height: 35%; border-radius: 50%; margin-top: 50%; margin-left: 10%;">
             </div>
-            <h5 style="margin-right: 85%; margin-top: 10px;">@users.name @users.email</h5 
-            </div>
+            <h5 style="margin-right: 85%; margin-top: 10px;">@users.name @users.email</h5 </div>
 
-        <div class="content px-4">
+            <div class="content px-4">
             @Body
+            </div>
         </div>
     </div>
-</div>
 
 @code {
     private Users users = new Users();
@@ -28,25 +28,19 @@
     {
         try
         {
-        string api = "https://localhost:5000/Users/ID?ID=3";
-        HttpClient client = new HttpClient();
-        var response = await client.GetStringAsync(api);
-        var search = JsonConvert.DeserializeObject<Users>(response);
-        users.email = search.email;
-        users.name = search.name;
-        StateHasChanged();
+            string api = "https://jsonplaceholder.typicode.com/users/1";
+            HttpClient client = new HttpClient();
+            var response = await client.GetStringAsync(api);
+            var search = JsonConvert.DeserializeObject<Users>(response);
+            users.email = search.email;
+            users.name = search.name;
+            StateHasChanged();
+
 
         }
-        catch(Exception e)
+        catch (Exception e)
         {
-        string api = "https://jsonplaceholder.typicode.com/users/1";
-        HttpClient client = new HttpClient();
-        var response = await client.GetStringAsync(api);
-        var search = JsonConvert.DeserializeObject<Users>(response);
-        users.email = search.email;
-        users.name = search.name;
-        StateHasChanged();
-        Console.WriteLine(e);
+            Console.WriteLine(e);
         }
     }
-}
+    }

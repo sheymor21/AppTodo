@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/sheymor/Escritorio/carpeta/RestApiTo-do/RestApiTo-do.csproj": {}
+    "/home/sheymor/Escritorio/carpeta/repo/AppTodo/RestApiTo-do/RestApiTo-do.csproj": {}
   },
   "projects": {
-    "/home/sheymor/Escritorio/carpeta/RestApiTo-do/RestApiTo-do.csproj": {
+    "/home/sheymor/Escritorio/carpeta/repo/AppTodo/RestApiTo-do/RestApiTo-do.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sheymor/Escritorio/carpeta/RestApiTo-do/RestApiTo-do.csproj",
+        "projectUniqueName": "/home/sheymor/Escritorio/carpeta/repo/AppTodo/RestApiTo-do/RestApiTo-do.csproj",
         "projectName": "RestApiTo-do",
-        "projectPath": "/home/sheymor/Escritorio/carpeta/RestApiTo-do/RestApiTo-do.csproj",
+        "projectPath": "/home/sheymor/Escritorio/carpeta/repo/AppTodo/RestApiTo-do/RestApiTo-do.csproj",
         "packagesPath": "/home/sheymor/.nuget/packages/",
-        "outputPath": "/home/sheymor/Escritorio/carpeta/RestApiTo-do/obj/",
+        "outputPath": "/home/sheymor/Escritorio/carpeta/repo/AppTodo/RestApiTo-do/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sheymor/.nuget/NuGet/NuGet.Config"
