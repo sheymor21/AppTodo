@@ -78,125 +78,6 @@
         }
       },
       {
-        "HashCode": -689801632,
-        "Kind": "Components.Component",
-        "Name": "AppTodo.App",
-        "AssemblyName": "AppTodo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AppTodo.App"
-        }
-      },
-      {
-        "HashCode": -655171939,
-        "Kind": "Components.Component",
-        "Name": "AppTodo.App",
-        "AssemblyName": "AppTodo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AppTodo.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AppTodo.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 489461028,
-        "Kind": "Components.Component",
-        "Name": "AppTodo.Shared.SurveyPrompt",
-        "AssemblyName": "AppTodo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AppTodo.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -303582376,
-        "Kind": "Components.Component",
-        "Name": "AppTodo.Shared.SurveyPrompt",
-        "AssemblyName": "AppTodo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AppTodo.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AppTodo.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -194123226,
-        "Kind": "Components.Component",
-        "Name": "AppTodo.Shared.NavMenu",
-        "AssemblyName": "AppTodo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AppTodo.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1695569973,
-        "Kind": "Components.Component",
-        "Name": "AppTodo.Shared.NavMenu",
-        "AssemblyName": "AppTodo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AppTodo.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "AppTodo.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 293344579,
         "Kind": "Components.Component",
         "Name": "AppTodo.Shared.MainLayout",
@@ -289,6 +170,125 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "AppTodo.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 489461028,
+        "Kind": "Components.Component",
+        "Name": "AppTodo.Shared.SurveyPrompt",
+        "AssemblyName": "AppTodo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AppTodo.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -303582376,
+        "Kind": "Components.Component",
+        "Name": "AppTodo.Shared.SurveyPrompt",
+        "AssemblyName": "AppTodo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AppTodo.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AppTodo.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -194123226,
+        "Kind": "Components.Component",
+        "Name": "AppTodo.Shared.NavMenu",
+        "AssemblyName": "AppTodo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AppTodo.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1695569973,
+        "Kind": "Components.Component",
+        "Name": "AppTodo.Shared.NavMenu",
+        "AssemblyName": "AppTodo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AppTodo.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AppTodo.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -689801632,
+        "Kind": "Components.Component",
+        "Name": "AppTodo.App",
+        "AssemblyName": "AppTodo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AppTodo.App"
+        }
+      },
+      {
+        "HashCode": -655171939,
+        "Kind": "Components.Component",
+        "Name": "AppTodo.App",
+        "AssemblyName": "AppTodo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AppTodo.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "AppTodo.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

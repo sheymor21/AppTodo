@@ -128,9 +128,8 @@ using Newtonsoft.Json;
 
 
         }
-        catch (Exception e)
+        catch (Exception)
         {
-            Console.WriteLine(e);
         }
     }
     
